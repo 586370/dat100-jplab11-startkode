@@ -29,6 +29,7 @@ public abstract class Innlegg {
 		this.setBruker(bruker);
 		this.setDato(dato);
 		
+		
 	}
 	
 	public String getBruker() {
