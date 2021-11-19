@@ -6,8 +6,15 @@ public class Bilde extends Tekst {
 
 	// TODO - objekt variable
 	
+	private String url;
+	
+	
 	public Bilde(int id, String bruker, String dato, String tekst, String url) {
-		throw new UnsupportedOperationException(TODO.constructor("Bilde"));
+		this.setTekst(tekst);
+		this.setUrl(url);
+		this.setBruker(bruker);
+		this.setDato(dato);
+		
 	}
 
 	public Bilde(int id, String bruker, String dato, int likes, String tekst, String url) {
@@ -15,12 +22,12 @@ public class Bilde extends Tekst {
 	}
 	
 	public String getUrl() {
-		throw new UnsupportedOperationException(TODO.method());
+return url;
 
 	}
 
 	public void setUrl(String url) {
-		throw new UnsupportedOperationException(TODO.method());
+		this.url = url;
 	}
 
 	@Override
