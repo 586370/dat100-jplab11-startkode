@@ -6,6 +6,7 @@ import no.hvl.dat100.jplab11.oppgave1.*;
 public class Tekst extends Innlegg {
 
 	// TODO: objektvariable 
+	private String tekst;
 	
 	public Tekst () {
 		
@@ -20,12 +21,12 @@ public class Tekst extends Innlegg {
 	}
 	
 	public String getTekst() {
-		throw new UnsupportedOperationException(TODO.method());
+		return tekst;
 
 	}
 
 	public void setTekst(String tekst) {
-		throw new UnsupportedOperationException(TODO.method());
+	this.tekst = tekst;
 	}
 
 	@Override
